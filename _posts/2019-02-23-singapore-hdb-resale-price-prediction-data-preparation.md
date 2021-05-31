@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Singapore HDB Resale Price Prediction: Data Preparation"
+title:  "Singapore HDB Resale Price Prediction : Data Preparation"
 date:   2019-02-23 12:26:57 +0800
 categories:
 ---
