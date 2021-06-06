@@ -1,12 +1,15 @@
 ---
-layout: post
 title:  "Singapore HDB Resale Price Prediction : Modelling"
-date:   2019-02-25 12:26:57 +0800
+date:   2019-02-25 21:39:59 +0800
 categories:
+  - feature engineering
+tags:
+  - HDB
+  - feature engineering
+  - housing price prediction
+toc: true
+toc_sticky: true
 ---
-# Singapore HDB Resale Price Prediction : Modelling
-
-Singapore HDB
 
 In previous post, we have performed data wrangling, as well as some simple data exploration and visualisations to understand more about the Singapore HDB resale dataset. Finally we have reached the exciting part: modelling! We will try out several models and compare the accuracy for each model, and more importantly, discuss about why certain model has a better performance.
 
@@ -74,4 +77,4 @@ When people are really considering buying an HDB, their priorities also varies c
 
 We have also identified several town locations such as Kallang, Ang Mo Kio and Serangoon, which might be a good place to consider for people who are looking for locations near CBD with a lower price.
 
-Thank you all again for following through my posts!
+Thank you for reading!

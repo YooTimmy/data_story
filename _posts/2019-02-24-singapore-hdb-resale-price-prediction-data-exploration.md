@@ -1,8 +1,14 @@
 ---
-layout: post
 title:  "Singapore HDB Resale Price Prediction : Data Exploration"
-date:   2019-02-24 12:26:57 +0800
+date:   2019-02-24 21:39:59 +0800
 categories:
+  - feature engineering
+tags:
+  - HDB
+  - feature engineering
+  - housing price prediction
+toc: true
+toc_sticky: true
 ---
 
 In the previous post, we have performed data wrangling for [Singapore HDB resale Price](https://data.gov.sg/dataset/resale-flat-prices) dataset, and identified some features that should be useful to build up the model later on. Before moving on to modelling, let’s explore the dataset a bit more to see if there any any interesting patterns we can find.

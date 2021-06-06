@@ -1,7 +1,10 @@
 ---
-layout: page
-title: Resume
-permalink: /resume/
+permalink: /cv/
+title: "Jie <ins>Tian</ins>"
+layout: single
+classes: wide
+last_modified_at: 2021-03-27T14:28:13-05:00
+author_profile: true
 ---
 
 ## Contact

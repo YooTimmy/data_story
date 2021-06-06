@@ -1,8 +1,14 @@
 ---
-layout: post
-title:  "Singapore HDB Resale Price Prediction : Data Preparation"
-date:   2019-02-23 12:26:57 +0800
+title:  "Singapore HDB Resale Price Prediction : Data Preparation"
+date:   2019-02-23 21:39:59 +0800
 categories:
+  - feature engineering
+tags:
+  - HDB
+  - feature engineering
+  - housing price prediction
+toc: true
+toc_sticky: true
 ---
 
 In Singapore, for young working adults who are about to start a family, HDB(Singapore Public Housing) would be their first choice when they have a limited budget. However, it could become a real headache for those who are considering which HDB flat to choose: town areas, nearby facilities(e.g. schools, shopping malls), flat types, etc. To make people’s life easier when facing such significant choices, I decided to do a study for Singapore HDB resale price, explore what are the key factors affecting HDB resale price, and make some recommendations for people who are planning to purchase a HDB in a near future.
@@ -31,7 +37,7 @@ Below are some of the first impressions when I first look at these columns:
 
 After getting some rough ideas about the dataset, we may start to do data wrangling. Below are some feature engineering work I have performed to pre-process corresponding data columns:
 
-**Town : **To use this data column as an input for regression model, I have aggregate the dataset by Town, and take the median resale price for each town to subtract the overall median resale price. The result (‘town_premium’ column) can be interpreted as the amount money one need to pay additionally when they choose this location. For instance, one may need to pay an additional ~12.8k on average when buying HDB flats in Bukit Merah, while one can pay ~5.6K less if they choose a HDB flat in Bukit Panjiang area.
+**Town** : To use this data column as an input for regression model, I have aggregate the dataset by Town, and take the median resale price for each town to subtract the overall median resale price. The result (‘town_premium’ column) can be interpreted as the amount money one need to pay additionally when they choose this location. For instance, one may need to pay an additional ~12.8k on average when buying HDB flats in Bukit Merah, while one can pay ~5.6K less if they choose a HDB flat in Bukit Panjiang area.
 
 ![Pre-Processing the “Town” Column](https://cdn-images-1.medium.com/max/4064/1*ipg9EOQ6jdVSJTwIGQgEuA.png)*Pre-Processing the “Town” Column*
 
