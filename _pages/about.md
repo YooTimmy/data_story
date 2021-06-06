@@ -21,4 +21,4 @@ This blog servers as a place for me to document down my learnings along the way,
 ### Contact Me
 
 * [my resume](https://yootimmy.github.io/data_story/cv/)
-* [chaoran.liu@icloud.com](mailto:tianjie1112@gmail.com)
+* [tianjie1112@gmail.com](mailto:tianjie1112@gmail.com)
