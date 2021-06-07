@@ -21,7 +21,7 @@ author_profile: true
 
 <div class="working">
     <div class="logo">
-        <img src="https://brandslogos.com/wp-content/uploads/images/large/citibank-logo.png">
+        <img src= "../assets/images/citibank-logo.png">
     </div>
     <div class="title-desc">
         <h3>GCB Analytics Associate</h3>
@@ -36,7 +36,7 @@ author_profile: true
 
 <div class="working">
     <div class="logo">
-        <img src="">
+        <img src= "../assets/images/hitachi_logo.png">
     </div>
     <div class="title-desc">
         <h3>Data Scientist</h3>
@@ -51,7 +51,7 @@ author_profile: true
 
 <div class="working">
     <div class="logo">
-        <img src="">
+        <img src= "../assets/images/sea_logo.png">
     </div>
     <div class="title-desc">
         <h3>System Engineer</h3>
@@ -66,7 +66,7 @@ author_profile: true
 
 <div class="working">
     <div class="logo">
-        <img src="">
+        <img src= "../assets/images/micron-logo.png">
     </div>
     <div class="title-desc">
         <h3>Project Manager</h3>
