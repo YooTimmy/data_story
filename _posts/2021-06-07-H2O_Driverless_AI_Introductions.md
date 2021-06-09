@@ -103,9 +103,12 @@ what ML models to use or even load in some pre-trained neural network models for
 ## H2O DAI Model Deployment
 
 After obtaining model, the next step is to deploy it and put it into use in production. H2O DAI does have the option to export the scoring pipeline both in Python and as a MOJO (Model Object, Optimized).
+
 The python scoring pipeline is a more straight forward extension of ML model, where you have the option to deploy it locally for testing purpose, or you can use TCP/HTTP scoring service for other languages and platforms.
+
 The MOJO scoring pipeline makes use of the MOJO, which is an H2O-optimized version of POJO. When dealing with larger datasets and more complex models, MOJO objects generally consume smaller disk space with a better speed performance.
 It can be used in Java programs naturally, but you can also use R/Python to call the MOJO object to make predictions.
+
 With the scoring pipeline in place, there are options to deploy the model in cloud (AWS Lambda is the recommend one by H2O), but the more popular option might be the REST API deployment with MOJO. However, likely there are still some man days
 required to integrate the model into production - so in a sense the model deployment part is not fully automated by H2O DAI yet.
 
