@@ -117,8 +117,8 @@ required to integrate the model into production - so in a sense the model deploy
 
 ## Things to take note
 
-I have tried to use H2O DAI to build models and compare its performance of the hand built models. In general, H2O DAI is able to achieve comparable, if not better performance for most use cases if configured properly. In fact, since H2O DAI provides various ML models, feature transformers and able to run
-through so many different combinations of features, models and hyper parameters, and it is able to ensemble the best performing models to further boost up the model scores. As a result, H2O DAI does show the advantages of getting better prediction scores, statistically, in most cases.
+I have tried to use H2O DAI to build models and compared its performance with hand built models. In general, H2O DAI is able to achieve comparable, if not better performance for most use cases if configured properly. In fact, H2O DAI includes various ML models, feature transformers and is able to run
+through so many different combinations of features, models and hyper parameters, and ensemble the best performing models to further boost up the model scores. As a result, H2O DAI does show the advantages of getting better prediction scores, statistically, in most cases.
 Having said that, there are still some areas where you need to pay attention to when considering to use this AutoML toolkit for production. Just to name a few:
 
 **1.Be aware of things that are not automated**:
@@ -130,7 +130,9 @@ data cleaning and feature engineering remain as important steps even with H2O DA
 **2.When business understanding and explainability matters**:
 
 While H2O DAI doing computations internally, the optimization is purely driven by improving the scoring function statistically. There could be cases where a feature transformer gets applied and leads to overall improvements in model scores, but it might not make
-much sense from business perspective. For instance, H2O DAI might choose to apply a log transform for variable that represent the past three months transaction counts of customers - would that feature make sense from business point of view?
+much sense from business perspective.
+
+For instance, H2O DAI might choose to apply a log transform for variable that represent the past three months transaction counts of customers - would that feature make sense from business point of view?
 There are no strict right or wrong answers for this, but alignments have to be made with relevant stakeholders, especially for the model reviewers who are typically more conservative for "automatic processes".
 
 **3.Extra efforts still required for production**:
