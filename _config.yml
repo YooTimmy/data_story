@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "TJ's Learning Journey "
+title                    : "Read.Learn.Grow"
 title_separator          : "-"
-subtitle                 : "A place to record down my learning and reflections along the way"
+subtitle                 : "A place to record down my learnings and reflections along the way, mostly related to data analytics"
 name                     : &name "Tian Jie"
 description              : "Learning/Sharing/Reflections"
 url                      : "https://yootimmy.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -99,9 +99,7 @@ author:
   bio              : "data science practitioner"
   location         : "Singapore"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "tianjie1112@gmail.com"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/YooTimmy"

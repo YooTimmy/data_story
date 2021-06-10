@@ -13,7 +13,6 @@ My name is Tian Jie, I am from China and have been living in Singapore since 201
 I obtained both my Bachelor and Master Degree in NUS, major in Electrical Engineering and Data Analytics respectively.
 I was trained as an Electrical Engineer, but now I enjoy more on delivering business insights via data analytics.
 
-
 ### About this Blog
 
 This blog servers as a place for me to document down my learnings along the way, mostly in the domain of data analytics.

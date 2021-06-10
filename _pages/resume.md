@@ -114,8 +114,8 @@ author_profile: true
 | ------------- |:--------------|
 | Data ETL | SQL(Hive/Impala), PySpark, SAS |
 | Modelling | Python, Keras, LightGBM/XGBoost, scikit-learn, H2O AutoML|
-| Visualization | Tableau, seaborn, ggplot2, HTML, CSS |
-| Deployment | Docker, API wrapping (FastAPI) |
+| Visualization | Tableau, seaborn |
+| Others | Linux, Shell Scripting, API wrapping (FastAPI) |
 
 
 <style>
