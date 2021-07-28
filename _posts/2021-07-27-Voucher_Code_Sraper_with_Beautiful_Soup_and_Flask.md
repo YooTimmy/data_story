@@ -108,7 +108,7 @@ effective based on my experiences.
 
 ## Full Code
 
-Lastly, you can find the full code base used for this project in my Github page [here] (https://github.com/YooTimmy/promo_code_scraper). Once getting the code, you can navigate
+Lastly, you can find the full code base used for this project in my Github page [here](https://github.com/YooTimmy/promo_code_scraper). Once getting the code, you can navigate
 to the target folder and type "python promo_code_scraper.py", then you will have your promo code scraper running at http://127.0.0.1:5000/ locally.
 
 
